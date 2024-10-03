@@ -28,22 +28,46 @@
         </tr>
     </table>
     
-    Quel est votre niveau d'étude ?
     <p>
-        Vous êtes en terminale S à dominante:
-        <br><input type="radio" name="option" value="seconde" >Seconde
-        <br><input type="radio" name="option" value="première" >Première
-        <br><input type="radio" name="option" value="terminale" >Terminale
-        <br><input type="radio" name="option" value="bts" >BTS
+        Quel est votre niveau d'étude ?    
+        <br><input type="radio" name="niveau" value="seconde" >Seconde
+        <br><input type="radio" name="niveau" value="première" >Première
+        <br><input type="radio" name="niveau" value="terminale" >Terminale
+        <br><input type="radio" name="niveau" value="bts" >BTS
     </p>
     
     <p>
     Cochez la case convenable:
-    <br><input type="radio" name="option" value="externe">Externe
-    <br><input type="radio" name="option" value="demi-pensionnaire">Demi-pensionnaire
-    <br><input type="radio" name="option" value="interne">Interne
+    <br><input type="radio" name="régime" value="externe">Externe
+    <br><input type="radio" name="régime" value="demi-pensionnaire">Demi-pensionnaire
+    <br><input type="radio" name="régime" value="interne">Interne
     </p>
 
-    
+    <p>
+    Quels sont les langue vivantes que vous connaissez ?
+    <table border="1">
+        <tr>
+            <td>LV1</td>
+            <td><input type="text" name="LV1"></td>
+        </tr>
+        <tr>
+            <td>LV2</td>
+            <td><input type="text" name="LV2"></td>
+        </tr>
+        <tr>
+            <td>LV3</td>
+            <td><input type="text" name="LV3"></td>
+        </tr>
+    </table> 
+    </p>
+
+    <p>
+        Quels sont vos options ?
+        <br><input type="radio" name="option" value="informatique">informatique
+        <br><input type="radio" name="option" value="sciences expérimentales">Sciences expérimentales
+        <br><input type="radio" name="option" value="Latin">Latin
+        <br><input type="radio" name="option" value="Autres">Autres, à préciser ->
+        <input type="text" name="option">
+    </p>
 </body>
 </html>

@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: red;
+/*  background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1)), url(https://th.bing.com/th/id/OIP.ev9xIoa6VMBIssoCVhlFMwHaFj?rs=1&pid=ImgDetMain);
+    background-size:cover;
+    background-position: cover;
+    margin: 0;
+    padding: 0;
+    max-height: 850px;
+    max-width: 1500px;*/
+}
+
+.div1{
+    color: rgb(255, 255, 255);
+    height: 90px;
+    border: 5px solid black;
+/*  background-color: red;*/
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+}
+
+.imagedeconla{
+    background-image: url(LD.png);
+/*  background-size: cover;*/
+    background-position: center;
+}
+
+.grandline{
+    color: red;
+}
+
+T1{
+    color: white;
+    size: 50px;
+}
+
+T2{
+    color: red
+    size: 40px;
+    margin-left: 30px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}

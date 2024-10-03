@@ -10,7 +10,7 @@
     Nom: <input type="text" name="Nom" value=""/>
     Prénom: <input type="text" name="Prenom" value=""/>
     Mot de passe: <input type="password" name="Pas" size="5"/>
-    Âge: <input type="text" name="old" size="5" maxlength="2"/>
+    Âge: <input type="text" name="age" size="5" maxlength="2"/>
     <p>
         Vous êtes en terminale S à dominante:
         <input type="radio" name="option" value="math" >Mathématiques
@@ -26,7 +26,7 @@
     Quelle est votre discipline préférée ?
     <p>
         <select name="disciplines" multiple size="3">
-            <option>Physique</option>
+            <option selected>Physique</option>
             <option>Informatique</option>
             <option>Philosophie</option>
             <option>Mathématiques</option>
@@ -44,13 +44,13 @@
     <input type="checkbox" name="IUT">IUT<br/>
     <input type="checkbox" name="AUTRE">AUTRE<br/>
     <p>
-        Ecrivez ci-dessous le sujet de votre projet informatique: <br/>
+        Ecrivez ci-dessous le sujet de votre projet informatique:
         <textarea name="Projet" rows="8" cols="55">
             Voici mon projet d'option informatique
         </textarea>
     </p>
     <input type="reset" value="Effacer"> Pour recommencer<p>
-        <input type="submit" value="Valider">Pour envoyer ces informations<p>
+    <input type="submit" value="Valider">Pour envoyer ces informations<p>
   </form>  
 </body>
 </html>
