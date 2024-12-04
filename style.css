@@ -84,7 +84,7 @@ img{
   align-content: center;
 }
 
-.img:hover{
+img:hover{
   transform: scale(1.2);
 }
 
@@ -101,21 +101,6 @@ img{
     text-decoration: none;
 }
 
-.next:hover{
-  background-color: aquamarine;
-  color: black;
-}
-
-.next a:hover{
-  color: black;
-}
-
-.evo{
-    list-style-type: upper-roman;
-    color: aliceblue;
-    font-size: 20px;
-}
-
 table{
   border-color: #fff;
   text-transform:inherit;
@@ -127,25 +112,29 @@ form{
 }
 
 input{
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255, 0.6);
   border: 0cm;
 }
 
 textarea{
-  background-color: aquamarine;
+  background-color: rgba(255, 255, 255, 0.6);
   border: 0cm;
   width: 300px;
   height: 80px;
 }
 
 div{
-  background-color: rgba(0, 0, 0, 0.5); /* Fond noir avec une opacité de 50% */
-  padding: 10px; /* Ajoute un peu d'espace autour du texte */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
   border-radius: 5px;
 }
 
 iframe{
   width: 600px;
-  height: 340px;
-  align-tracks:center ;
+  height: 300px;
+  align:center;
+}
+
+.frame{
+  align:center;
 }
