@@ -59,6 +59,10 @@ img{
 .image-container img {
   margin: 0 2px; /* Ajoute un espace entre les images */
 }
+form{
+  color: aliceblue;
+  margin-left: 25%;
+}
 }
 
 /* Styles pour les écrans de largeur supérieure à 1200px */
@@ -118,6 +122,10 @@ img{
 
 .image-container img {
   margin: 0 5px; /* Ajoute un espace entre les images */
+}
+form{
+  color: aliceblue;
+  margin-left: 40%;
 }
 }
 
@@ -193,11 +201,6 @@ img:hover{
 table{
   border-color: #fff;
   text-transform:inherit;
-}
-
-form{
-  color: aliceblue;
-  margin-left: 20px;
 }
 
 input{
