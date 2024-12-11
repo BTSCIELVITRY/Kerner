@@ -12,6 +12,15 @@ body{
   font-size: 10px ;
 }
 
+.dropbtn {
+  cursor: pointer;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff; /* Couleur du texte du bouton déroulant en blanc */
+  padding: 4px 0;
+}
+
 .textc{
     color: aliceblue;
     text-align: center;
@@ -41,6 +50,15 @@ img{
   width: 200px;
   height: 120px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centre les images horizontalement */
+}
+
+.image-container img {
+  margin: 0 2px; /* Ajoute un espace entre les images */
+}
 }
 
 /* Styles pour les écrans de largeur supérieure à 1200px */
@@ -54,6 +72,16 @@ img{
       color: aliceblue;
       font-size: 20px ;
   }
+
+  .dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff; /* Couleur du texte du bouton déroulant en blanc */
+    padding: 4px 0;
+  }
+
   .textc{
     color: aliceblue;
     text-align: center;
@@ -82,6 +110,15 @@ img{
   width: 300px;
   height: 200px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centre les images horizontalement */
+}
+
+.image-container img {
+  margin: 0 5px; /* Ajoute un espace entre les images */
+}
 }
 
 .menu{
@@ -92,15 +129,6 @@ img{
 .dropdown {
   display: inline-block;
   position: relative;
-}
-
-.dropbtn {
-  cursor: pointer;
-  font-size: 22px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff; /* Couleur du texte du bouton déroulant en blanc */
-  padding: 4px 0;
 }
 
 /* Styles du menu déroulant */
@@ -136,15 +164,6 @@ img{
 
 img:hover{
   transform: scale(1.2);
-}
-
-.image-container {
-  display: flex;
-  justify-content: center; /* Centre les images horizontalement */
-}
-
-.image-container img {
-  margin: 0 5px; /* Ajoute un espace entre les images */
 }
 
 .next{
