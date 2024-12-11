@@ -1,68 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:opsz@6..72&family=Orbitron:wght@400..900&display=swap');
 
+/* Styles pour les écrans de largeur inférieure à 600px */
+@media (max-width: 600px) {
 body{
   background-image: url('Fond.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;
-    min-height: 100vh;
-    font-family: "Orbitron",sans-serif;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    font-size: 20px ;
+  min-height: 100vh;
+  font-family: "Orbitron",sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 10px ;
 }
-
-.menu{
-    color: rgb(255, 255, 255);
-    background-color: rgba(1,38,62,1);
-    /*background: linear-gradient(0deg, rgba(26,193,195,1) 0%, rgba(0,73,121,1) 40%);
-*/    padding: 20px;
-}
-
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.dropbtn {
-    cursor: pointer;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff; /* Couleur du texte du bouton déroulant en blanc */
-    padding: 4px 0;
-}
-  
-  /* Styles du menu déroulant */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    top: 100%; /* Positionné juste en dessous du bouton */
-    left: 0;
-    transition: background-color 0.3s;
-}
-  
-  .dropdown-content a {
-    color: #fff; /* Couleur du texte des liens dans le menu déroulant en blanc */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    border-radius: 5px;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
 .textc{
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    text-decoration:underline;
+    text-transform:capitalize;
+    font-size: 10px
+}
+
+h1{
+  color: white;
+    text-decoration:underline;
+    text-transform:capitalize;
+    font-size: 20px;
+}
+
+img{
+  transition: 0.3s;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 200px;
+  height: 120px;
+}
+}
+
+/* Styles pour les écrans de largeur supérieure à 1200px */
+@media (min-width: 601px) {
+  body{
+    background-image: url('Fond.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;
+      min-height: 100vh;
+      font-family: "Orbitron",sans-serif;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+      font-size: 20px ;
+  }
+  .textc{
     color: aliceblue;
     text-align: center;
     font-size: 35px;
@@ -90,6 +83,57 @@ img{
   width: 300px;
   height: 200px;
 }
+}
+
+.menu{
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropbtn {
+  cursor: pointer;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff; /* Couleur du texte du bouton déroulant en blanc */
+  padding: 4px 0;
+}
+
+/* Styles du menu déroulant */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Positionné juste en dessous du bouton */
+  left: 0;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a {
+  color: #fff; /* Couleur du texte des liens dans le menu déroulant en blanc */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 img:hover{
   transform: scale(1.2);
@@ -101,11 +145,11 @@ img:hover{
 }
 
 .image-container img {
-  margin: 0 10px; /* Ajoute un espace entre les images */
+  margin: 0 5px; /* Ajoute un espace entre les images */
 }
 
 .next{
-  width: 400px;
+  width: 100%;
   height: auto;
   background-color: rgba(1,38,62,1,0.5);
   border: 0px;
