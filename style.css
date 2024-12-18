@@ -9,12 +9,12 @@ body{
   justify-content: center;
   align-items: center;
   color: aliceblue;
-  font-size: 10px ;
+  font-size: 15px ;
 }
 
 .dropbtn {
   cursor: pointer;
-  font-size: 10px;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff; /* Couleur du texte du bouton déroulant en blanc */
@@ -32,7 +32,7 @@ body{
     text-align: center;
     text-decoration:underline;
     text-transform:capitalize;
-    font-size: 15px
+    font-size: 20px
 }
 
 h1{
@@ -199,8 +199,16 @@ img:hover{
 }
 
 table{
+  border: 1px;
+  border-style: double;
   border-color: #fff;
   text-transform:inherit;
+}
+
+td{
+  border: 1px;
+  border-style: double;
+  border-color: #fff;
 }
 
 input{
@@ -224,7 +232,7 @@ div{
 iframe{
   width: 600px;
   height: 300px;
-  align:center;
+  align-items:center;
   margin-left: auto;
   margin-right: auto;
 }
